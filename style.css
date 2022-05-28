@@ -17,6 +17,7 @@ header{
     height:10vh;    
 }
 
+
 .telapequena{
     display:none;
 }
@@ -31,7 +32,7 @@ header{
 }
 
 ul{
-    width:40%;
+    width: 60%;
     display:flex;
     justify-content: space-evenly;   
     
@@ -57,16 +58,19 @@ a:hover{
     width:125vw;
     background-image: url("./img/laranja\ azul\ recorte.png");
     height: 780px;
-    padding-left: 20vw;
+    padding-left: 12vw;
     padding-top: 40vh;
     
 }
+
+
 
 main h2{
     
     font-size: 78px;
     position:relative;
     color:white;
+    padding-bottom: 4vw;
     
  
 }
@@ -78,6 +82,51 @@ main h3{
     font-size: 40px;
 }
 
+img{
+    width:35%;
+    height:35%;
+    margin: 10px;
+}
+
+.container_img{
+    display:flex;
+   padding: 50px 100px;
+flex-direction: column;
+}
+.container_img_telapequena{
+    display:none;
+}
+
+.container_1{
+ display:flex;
+}
+.container_2{
+    display:flex;
+}
+.container_3{
+    display:flex;
+}
+
+.botao_topo{
+    display:none;
+}
+
+footer{
+    width:125vw;
+    height:10vh;    
+    background-color: grey;
+    display: flex;
+}
+.container_texto{
+    display:flex;
+}
+
+.redes_footer{
+    width: 30%;
+    display:flex;
+    padding-left: 4%;
+}
+   
 
 
 
@@ -115,5 +164,33 @@ main h3{
     header{
         height: 27px;
     }
+
+    
+
+   .banner{
+    background-image: url("./img/laranja\ azul\ recorte@2x.png");
+    display:flex;
+    width: 100vw;
+    height: 150vh;
+    padding-left: 5vw;
+    padding-top: 95vh;
+   }
+
+   .container_img{
+    display:none;
+}
+
+.container_img_telapequena{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+   
+}
 
 }
