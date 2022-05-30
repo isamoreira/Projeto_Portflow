@@ -114,20 +114,36 @@ flex-direction: column;
 footer{
     width:125vw;
     height:10vh;    
-    background-color: grey;
+    background-color: #DCDCDC;
     display: flex;
 }
 .container_texto{
     display:flex;
+    align-items: center;
 }
 
 .redes_footer{
-    width: 30%;
+    width: 40%;
     display:flex;
-    padding-left: 4%;
+    align-items: center;
+    padding-left: 5%;
 }
-   
 
+.container_texto{
+    font-size: 15px;
+    font-weight: 300;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+footer img{
+    width: 10%;
+    
+}
+
+footer p{
+    padding-left:10% ;
+}
 
 
 
@@ -191,6 +207,10 @@ img{
     width: 300px;
     height: 300px;
    
+}
+
+footer{
+    width: 80%
 }
 
 }
