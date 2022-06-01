@@ -27,7 +27,7 @@ header{
     display:flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2vh 10%;
+    padding: 2vh 5%;
     
 }
 
@@ -119,9 +119,7 @@ flex-direction: column;
     display:flex;
 }
 
-.botao_topo{
-    display:none;
-}
+
 
 footer{
     width:125vw;
@@ -221,16 +219,33 @@ img{
 }
 
 footer{
-    width: 100%;
+    padding: 5vh;
+    width: 90vw;
+    height: 30vh;
+    background-color: white;
     display: flex;
     flex-direction: column;
-    height:10vh; 
-
+    justify-content: space-evenly;
 }
 
-.container_texto {
+.redes_footer{
+    background-color: #7FDBD4;
+    width: 70vw;
+    height: 7vh;
+}
+
+footer img{
+    width: 25px;
+}
+
+.container_texto{
+    font-size: 10px;
+    align-items: flex-start;
     flex-direction: column;
-    width: 100%;
+}
+
+.botao_topo{
+    display:block;
 }
 
 }
