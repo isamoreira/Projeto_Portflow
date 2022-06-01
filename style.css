@@ -57,10 +57,23 @@ a:hover{
     margin:auto;
     width:125vw;
     background-image: url("./img/laranja\ azul\ recorte.png");
+    background-repeat: no-repeat;
     height: 780px;
-    padding-left: 12vw;
-    padding-top: 40vh;
+    justify-content: center;
     
+    
+    
+}
+
+.textos{
+    display: flex;
+    width: 100%;
+    height: 30%;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 5%;
+   
+
 }
 
 
@@ -70,7 +83,6 @@ main h2{
     font-size: 78px;
     position:relative;
     color:white;
-    padding-bottom: 4vw;
     
  
 }
@@ -188,8 +200,7 @@ footer p{
     display:flex;
     width: 100vw;
     height: 150vh;
-    padding-left: 5vw;
-    padding-top: 95vh;
+   
    }
 
    .container_img{
@@ -210,7 +221,16 @@ img{
 }
 
 footer{
-    width: 80%
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height:10vh; 
+
+}
+
+.container_texto {
+    flex-direction: column;
+    width: 100%;
 }
 
 }
